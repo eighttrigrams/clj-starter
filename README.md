@@ -2,7 +2,7 @@
 
 Run the main function
 
-    $ clj -M -m go
+    $ clj -X:run
 
 Run tests
 
