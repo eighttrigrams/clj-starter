@@ -1,10 +1,10 @@
-{:paths ["src/main"]
+{:paths ["src"]
  :deps    {thiru/clj-reloader        {:git/url "https://github.com/thiru/clj-reloader"
                                       :sha     "8646987342602ab2c6fd0b966386eacda0844f64"}}
  :aliases {:run  {:exec-fn go/-main}
-           :test {:extra-paths ["src/test"]
+           :test {:extra-paths ["test"]
                   :extra-deps  {io.github.cognitect-labs/test-runner {:git/tag "v0.5.1"
                                                                       :git/sha "dfb30dd"}}
                   :main-opts   ["-m" "cognitect.test-runner"]
                   :exec-fn     cognitect.test-runner.api/test}
-           :dev  {:extra-paths ["src/dev"]}}}
+           :dev  {:extra-paths ["dev"]}}}

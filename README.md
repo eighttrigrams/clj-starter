@@ -6,7 +6,7 @@ Run the main function
 
 Run tests
 
-    $ clj -X:test '{:dirs ["src/test"]}'
+    $ clj -X:test '{:dirs ["test"]}'
 
 Develop with hot code reloading.
 
