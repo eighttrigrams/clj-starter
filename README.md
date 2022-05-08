@@ -8,6 +8,6 @@ Run tests
 
     $ clj -X:test '{:dirs ["src/test"]}'
 
-Develop sources and tests with hot code reloading.
+Develop with hot code reloading.
 
     $ clj -M:dev
