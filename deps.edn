@@ -7,4 +7,6 @@
                                                                       :git/sha "dfb30dd"}}
                   :main-opts   ["-m" "cognitect.test-runner"]
                   :exec-fn     cognitect.test-runner.api/test}
-           :dev  {:extra-paths ["dev"]}}}
+           :dev  {:extra-paths ["dev"]
+                  :extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}}
+                  :main-opts   ["-m" "rebel-readline.main"]}}}

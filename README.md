@@ -1,6 +1,6 @@
 # clj-starter
 
-A very basic project with tests and automatic code reloading.
+A very basic project with tests, automatic code reloading, and [rebel-readline](https://github.com/bhauman/rebel-readline).
 
 See also: https://github.com/seancorfield/deps-new
 
