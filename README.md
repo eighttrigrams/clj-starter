@@ -28,19 +28,19 @@ Run
 
    $ clj -M:dev
 
-### ... with clj-reloader
+#### ... with clj-reloader
 
 See [clj-reloader](https://github.com/thiru/clj-reloader)
 
     $ clj -M:dev:auto
 
-### ... with rebel-readline
+#### ... with rebel-readline
 
 See [rebel-readline](https://github.com/bhauman/rebel-readline) .
 
     $ clj -M:dev:rebel
 
-### ... with clj-reloader and rebel-readline
+#### ... with clj-reloader and rebel-readline
 
 Run
 
