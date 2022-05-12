@@ -1,6 +1,4 @@
 {:paths ["src"]
- :deps    {thiru/clj-reloader        {:git/url "https://github.com/thiru/clj-reloader"
-                                      :sha     "8646987342602ab2c6fd0b966386eacda0844f64"}}
  :aliases {:test-paths ["test"]
            :run  {:exec-fn go/-main}
            :test {:extra-paths [:test-paths]
@@ -12,5 +10,7 @@
                           :extra-paths [:test-paths]
                           :main-opts ["-m" "com.jakemccrary.test-refresh"]}
            :dev  {:extra-paths ["dev"]
-                  :extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}}
+                  :extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}
+                                thiru/clj-reloader        {:git/url "https://github.com/thiru/clj-reloader"
+                                                           :sha     "8646987342602ab2c6fd0b966386eacda0844f64"}}
                   :main-opts   ["-m" "rebel-readline.main"]}}}
