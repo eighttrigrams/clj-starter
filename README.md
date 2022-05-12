@@ -24,6 +24,8 @@ See [test-refresh](https://github.com/jakemcc/test-refresh)
 
 ### Develop
 
+Run
+
    $ clj -M:dev
 
 ### ... with clj-reloader
