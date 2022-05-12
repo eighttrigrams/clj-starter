@@ -22,14 +22,24 @@ See [test-refresh](https://github.com/jakemcc/test-refresh)
 
     $ clj -M:test:refresh
 
-### Develop with clj-reload
-
-See [clj-reloader](https://github.com/thiru/clj-reloader)
+### Develop
 
    $ clj -M:dev
 
-### ... and rebel-readline
+### ... with clj-reloader
+
+See [clj-reloader](https://github.com/thiru/clj-reloader)
+
+    $ clj -M:dev:auto
+
+### ... with rebel-readline
 
 See [rebel-readline](https://github.com/bhauman/rebel-readline) .
 
     $ clj -M:dev:rebel
+
+### ... with clj-reloader and rebel-readline
+
+Run
+
+    $ clj -M:dev:auto:rebel
