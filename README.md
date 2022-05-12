@@ -10,13 +10,15 @@ Run the main function
 
     $ clj -X:run
 
-### Run tests with the Cognitect test-runner
+### Run tests 
+
+#### ... with the Cognitect test-runner
 
 See [test-runner](https://github.com/cognitect-labs/test-runner)
 
     $ clj -X:test:runner '{:dirs ["test"]}'
 
-### Run tests continuously with test-refresh
+#### ... continuously with test-refresh
 
 See [test-refresh](https://github.com/jakemcc/test-refresh)
 
