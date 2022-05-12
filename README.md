@@ -28,7 +28,7 @@ See [clj-reloader](https://github.com/thiru/clj-reloader)
 
    $ clj -M:dev
 
-#### ... and rebel-readline
+### ... and rebel-readline
 
 See [rebel-readline](https://github.com/bhauman/rebel-readline) .
 
