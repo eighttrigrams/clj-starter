@@ -14,6 +14,10 @@ Run tests
 
     $ clj -X:test '{:dirs ["test"]}'
 
+Run tests continuously
+
+    $ clj -X:test-refresh
+
 Develop with hot code reloading.
 
     $ clj -M:dev
