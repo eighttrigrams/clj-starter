@@ -11,4 +11,6 @@
                      :extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}
                                    thiru/clj-reloader         {:git/url "https://github.com/thiru/clj-reloader"
                                                                :sha     "8646987342602ab2c6fd0b966386eacda0844f64"}}
-                     :main-opts   ["-m" "rebel-readline.main"]}}}
+                     }
+           :rebel   {:extra-deps {com.bhauman/rebel-readline {:mvn/version "0.1.4"}}
+                     :main-opts  ["-m" "rebel-readline.main"]}}}
