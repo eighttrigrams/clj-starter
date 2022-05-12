@@ -1,16 +1,14 @@
 {:paths ["src"]
- :aliases {:test-paths ["test"]
-           :run  {:exec-fn go/-main}
-           :test {:extra-paths [:test-paths]
-                  :extra-deps  {io.github.cognitect-labs/test-runner {:git/tag "v0.5.1"
-                                                                      :git/sha "dfb30dd"}}
-                  :main-opts   ["-m" "cognitect.test-runner"]
-                  :exec-fn     cognitect.test-runner.api/test}
-           :test-refresh {:extra-deps {com.jakemccrary/test-refresh {:mvn/version "0.25.0"}}
-                          :extra-paths [:test-paths]
-                          :main-opts ["-m" "com.jakemccrary.test-refresh"]}
-           :dev  {:extra-paths ["dev"]
-                  :extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}
-                                thiru/clj-reloader        {:git/url "https://github.com/thiru/clj-reloader"
-                                                           :sha     "8646987342602ab2c6fd0b966386eacda0844f64"}}
-                  :main-opts   ["-m" "rebel-readline.main"]}}}
+ :aliases {:test    {:extra-paths ["test"]}
+           :run     {:exec-fn go/-main}
+           :runner  {:extra-deps  {io.github.cognitect-labs/test-runner {:git/tag "v0.5.1"
+                                                                         :git/sha "dfb30dd"}}
+                     :main-opts   ["-m" "cognitect.test-runner"]
+                     :exec-fn     cognitect.test-runner.api/test}
+           :refresh {:extra-deps  {com.jakemccrary/test-refresh {:mvn/version "0.25.0"}}
+                     :main-opts   ["-m" "com.jakemccrary.test-refresh"]}
+           :dev     {:extra-paths ["dev"]
+                     :extra-deps  {com.bhauman/rebel-readline {:mvn/version "0.1.4"}
+                                   thiru/clj-reloader         {:git/url "https://github.com/thiru/clj-reloader"
+                                                               :sha     "8646987342602ab2c6fd0b966386eacda0844f64"}}
+                     :main-opts   ["-m" "rebel-readline.main"]}}}

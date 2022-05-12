@@ -12,11 +12,11 @@ Run the main function
 
 Run tests
 
-    $ clj -X:test '{:dirs ["test"]}'
+    $ clj -X:test:runner '{:dirs ["test"]}'
 
 Run tests continuously
 
-    $ clj -X:test-refresh
+    $ clj -M:test:refresh
 
 Develop with hot code reloading.
 
