@@ -28,14 +28,17 @@ See [test-refresh](https://github.com/jakemcc/test-refresh)
 
 Run
 
-   $ clj -M:dev
+    $ clj -M:dev
 
 #### ... with clojure.tools.namespace.repl
 
 See [tools.namespace](https://github.com/clojure/tools.namespace)
 
-Whenever `:dev` is used without `:auto` (see next section), `(refresh)` is provided
-to reload changed namespaces.
+Whenever `:dev` is used without `:auto` (see next section)
+
+    user=> (refresh)
+    
+is provided to reload changed namespaces.
 
 #### ... with clj-reloader
 
