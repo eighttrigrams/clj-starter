@@ -34,13 +34,15 @@ Run
 
 See [tools.namespace](https://github.com/clojure/tools.namespace)
 
-Whenever `:dev` is used without `:auto` (see next section)
+By default
 
     user=> (refresh)
     
 is provided to reload changed namespaces.
 
 #### ... with clj-reloader
+
+Instead of using `(refresh)`, code can also be loaded automatically.
 
 See [clj-reloader](https://github.com/thiru/clj-reloader)
 
