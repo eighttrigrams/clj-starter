@@ -1,7 +1,10 @@
 (ns user)
 
 (try
-  (require '[reloader.core :refer :all])
+  (require 'reloader.core)
   ((resolve 'reloader.core/start) ["src"])
-  (catch Exception _ nil))
+  (catch Exception _
+    (require 'clojure.tools.namespace.repl)
+    (defn refresh [] ((resolve 'clojure.tools.namespace.repl/refresh)))
+    nil))
   
