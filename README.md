@@ -26,11 +26,11 @@ See [test-refresh](https://github.com/jakemcc/test-refresh)
 
 ### Develop
 
-#### ... with clojure.tools.namespace.repl
-
 Run
 
    $ clj -M:dev
+
+#### ... with clojure.tools.namespace.repl
 
 See [tools.namespace](https://github.com/clojure/tools.namespace)
 
