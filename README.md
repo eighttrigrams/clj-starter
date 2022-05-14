@@ -16,7 +16,7 @@ Run the main function
 
 See [test-runner](https://github.com/cognitect-labs/test-runner)
 
-    $ clj -M:test:runner '{:dirs ["test"]}'
+    $ clj -X:test:runner '{:dirs ["test"]}'
 
 #### ... continuously with test-refresh
 
