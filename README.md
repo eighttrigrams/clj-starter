@@ -1,8 +1,8 @@
 # clj-starter
 
-A very basic project setup.
+A basic project setup.
 
-See also: https://github.com/seancorfield/deps-new
+See also: [seancorfield/deps-new](https://github.com/seancorfield/deps-new)
 
 ## Getting started
 
@@ -14,13 +14,13 @@ Run the main function
 
 #### ... with the Cognitect test-runner
 
-See [test-runner](https://github.com/cognitect-labs/test-runner)
+See [cognitect-labs/test-runner](https://github.com/cognitect-labs/test-runner)
 
     $ clj -X:test:runner '{:dirs ["test"]}'
 
 #### ... continuously with test-refresh
 
-See [test-refresh](https://github.com/jakemcc/test-refresh)
+See [jakemcc/test-refresh](https://github.com/jakemcc/test-refresh)
 
     $ clj -M:test:refresh
 
@@ -32,7 +32,7 @@ Run
 
 #### ... with clojure.tools.namespace.repl
 
-See [tools.namespace](https://github.com/clojure/tools.namespace)
+See [clojure/tools.namespace](https://github.com/clojure/tools.namespace)
 
 By default
 
@@ -44,13 +44,13 @@ is provided to reload changed namespaces.
 
 Instead of using `(refresh)`, code can also be loaded automatically.
 
-See [clj-reloader](https://github.com/thiru/clj-reloader)
+See [thiru/clj-reloader](https://github.com/thiru/clj-reloader)
 
     $ clj -M:dev:auto
 
 #### ... with rebel-readline
 
-See [rebel-readline](https://github.com/bhauman/rebel-readline) .
+See [bhauman/rebel-readline](https://github.com/bhauman/rebel-readline) .
 
     $ clj -M:dev:rebel
 
@@ -59,3 +59,10 @@ See [rebel-readline](https://github.com/bhauman/rebel-readline) .
 Run
 
     $ clj -M:dev:auto:rebel
+
+### Package and execute
+
+See [tonsky/uberdeps](https://github.com/tonsky/uberdeps)
+
+    $ clj -M:package <package name>.jar
+    $ java -cp <package name>.jar clojure.main -m main
