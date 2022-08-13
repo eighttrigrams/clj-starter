@@ -1,4 +1,5 @@
-(ns main)
+(ns main
+  (:require fns))
 
 (defn -main [& _args]
-  (prn "Ready to go!"))
+  (fns/greet "World"))
