@@ -51,7 +51,7 @@ See [thiru/clj-reloader](https://github.com/thiru/clj-reloader)
 
     $ clj -M:dev:auto
    
-Note that using this *automatic* instrumentation with specs 
+Note that *automatic* instrumentation with specs 
 (see section above) is not available in this mode.
 
 #### ... with rebel-readline
