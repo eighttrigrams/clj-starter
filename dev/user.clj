@@ -8,5 +8,5 @@
     (defn reset []
       ((resolve 'clojure.tools.namespace.repl/refresh))
       (require 'orchestra.spec.test)
-      (prn ((resolve 'orchestra.spec.test/instrument)))
+      (print ":instrumenting" ((resolve 'orchestra.spec.test/instrument)))
       nil)))
