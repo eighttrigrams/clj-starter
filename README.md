@@ -33,12 +33,15 @@ Run
 #### ... with clojure.tools.namespace.repl
 
 See [clojure/tools.namespace](https://github.com/clojure/tools.namespace)
+See [jeaye/orchestra](https://github.com/jeaye/orchestra)
 
 By default
 
-    user=> (refresh)
+    user=> (reset)
     
-is provided to reload changed namespaces.
+is provided to reload changed namespaces. 
+It also automatically instruments
+all function with specs where `fdefs` are provided.
 
 #### ... with clj-reloader
 
@@ -47,6 +50,9 @@ Instead of using `(refresh)`, code can also be loaded automatically.
 See [thiru/clj-reloader](https://github.com/thiru/clj-reloader)
 
     $ clj -M:dev:auto
+   
+Note that using this *automatic* instrumentation with specs 
+(see section above) is not available in this mode.
 
 #### ... with rebel-readline
 
