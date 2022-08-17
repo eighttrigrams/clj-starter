@@ -60,6 +60,21 @@ Run
 
     $ clj -M:dev:auto:rebel
 
+#### ... with nREPL
+
+See [nrepl/nrepl](https://github.com/nrepl/nrepl)
+
+Run 
+
+    $ clj -M:dev(:test):nREPL -m nrepl.cmdline -p \<port-number>
+
+##### VSCode
+
+- REPL
+    - Connect to a running REPL in your project
+        - Generic
+            - localhost:\<port-number>
+
 ### Package and execute
 
 See [tonsky/uberdeps](https://github.com/tonsky/uberdeps)
