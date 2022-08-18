@@ -42,6 +42,8 @@ By default
 is provided to reload changed namespaces. 
 It also automatically instruments
 all function with specs where `fdefs` are provided.
+Every function such instrumented gets checked
+in `:args`, `:ret` and `:fn`.
 
 #### ... with clj-reloader
 
