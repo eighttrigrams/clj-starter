@@ -85,7 +85,7 @@ Run
 
 ### Package and execute
 
-DONT use this approach any longer
+DONT use this approach any longer, use [tools build](https://clojure.org/guides/tools_build) instead
 
 See [tonsky/uberdeps](https://github.com/tonsky/uberdeps) 
 
