@@ -85,7 +85,9 @@ Run
 
 ### Package and execute
 
-See [tonsky/uberdeps](https://github.com/tonsky/uberdeps)
+DONT use this approach any longer
+
+See [tonsky/uberdeps](https://github.com/tonsky/uberdeps) 
 
     $ clj -M:package <package name>.jar
     $ java -cp <package name>.jar clojure.main -m main
